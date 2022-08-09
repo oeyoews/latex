@@ -1,17 +1,69 @@
 % README.tex
-\documentclass{book}
+\documentclass[12pt, a4paper, oneside]{article}
+
+% use package
+\usepackage{subfiles} % Best loaded last in the preamble
+
+% title
 \title{README}
 \author{oeyoews}
-\date{2022/08/09}
+\date{ 2022-08-09T17:22:52}
 \begin{document}
 \maketitle
-% \tableofcontents
 
-\section{sec}%
-sec
+% toc
+\tableofcontents
 
- this is a dmeo
+% import files
+\subfile{docs/fir}
 
-$f = m^2$
+\section{one}%
+
+\[
+f = m^2
+.\]
+
+\subsection{one.one}%
+\label{sub:one.one}
+
+\[
+f = m_{12}
+.\]
+
+$$
+f = m_{12}
+$$
+
+\section{second}%
+\label{sec:second}
+
+$f=a^2$
+
+\subsection{second.sec}%
+\label{sub:second.sec}
+
+\[
+f = m_{12}
+.\]
+
+\section{Tab}%
+\label{sec:Tab}
+
+\begin{tabular}{c}
+  1, 2
+  2, 4
+\end{tabular}
+
+\section{List}%
+\label{sec:List}
+
+\begin{itemize}
+  \item one
+  \item two
+\end{itemize}
+
+\begin{enumerate}
+  \item orderlist
+\end{enumerate}
 
 \end{document}
