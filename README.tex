@@ -3,6 +3,7 @@
 
 % use package
 \usepackage{subfiles} % Best loaded last in the preamble
+\usepackage{hyperref}
 
 % title
 \title{README}
@@ -15,7 +16,9 @@
 \tableofcontents
 
 % import files
+\subfile{docs/href}
 \subfile{docs/fir}
+\subfile{docs/reference}
 
 \section{one}%
 
@@ -65,5 +68,7 @@ f = m_{12}
 \begin{enumerate}
   \item orderlist
 \end{enumerate}
+
+\cite{Wille1982}
 
 \end{document}
