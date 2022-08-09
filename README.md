@@ -55,3 +55,7 @@
 - xelatex -> latexmk - zathura(save to refresh)
 - vimtex(plugin)
 - preview(plugin)
+
+## TODO
+
+- mupdf zathura different
