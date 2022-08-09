@@ -1,5 +1,4 @@
 <div align="center">
-
 <img src="https://img.shields.io/badge/Status-WIP-blueviolet.svg?style=flat-square&logo=Chakra-Ui&color=90E59A&logoColor=green" alt="status" >
 
 </div>
@@ -11,6 +10,14 @@
 <img src="img/latex.png" width=128/>
 
 </div>
+
+## what's that
+
+> coming
+
+## Showcases
+
+![img](img/00.png)
 
 ## Struct
 
