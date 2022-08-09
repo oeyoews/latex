@@ -37,6 +37,7 @@
 - tex related
 - zathura(pdf)
 - tlmgr(todo)
+- latexmk(increment compile)
 
 ## Links
 
@@ -48,3 +49,9 @@
 ## Bugs
 
 - tlmgr not founded: [ref](https://wiki.archlinux.org/title/TeX_Live#tlmgr)
+
+## Tips
+
+- xelatex -> latexmk - zathura(save to refresh)
+- vimtex(plugin)
+- preview(plugin)
