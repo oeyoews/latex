@@ -36,3 +36,14 @@
 - neovim(vim)
 - tex related
 - zathura(pdf)
+- tlmgr(todo)
+
+## Links
+
+- [tutorial](https://nbviewer.org/github/xinychen/latex-cookbook/blob/main/chapter-1/section5.ipynb)
+- [tuna](https://github.com/tuna/thuthesis)
+- [resume](https://github.com/hijiangtao/resume), [res2](https://github.com/jankapunkt/latexcv)
+
+## Bugs
+
+- tlmgr not founded: [ref](https://wiki.archlinux.org/title/TeX_Live#tlmgr)
