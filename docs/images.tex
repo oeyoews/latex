@@ -1,0 +1,26 @@
+% img.tex
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{float} %设置图片浮动位置的宏包
+\usepackage{subfigure}
+
+\title{img}
+\author{oeyoews}
+\date{2022/08/09}
+\begin{document}
+\maketitle
+
+% \tableofcontents
+
+\section{img}%
+\label{sec:img}
+
+\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
+\centering %图片居中
+\includegraphics[width=0.7\textwidth]{img/01.png} %插入图片，[]中设置图片大小，{}中是图片文件名
+\caption{Main name 2} %最终文档中希望显示的图片标题
+\label{Fig.main2} %用于文内引用的标签
+\end{figure}
+
+\end{document}
