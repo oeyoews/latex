@@ -1,5 +1,4 @@
-/docs
-!docs/href.tex
+!docs/**.tex
 *.nav
 *.toc
 *.xdv
