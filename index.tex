@@ -9,6 +9,8 @@
 % \CTEXsetup[format+={\raggedright}]{section} % deprecated
 \ctexset { section = { format+={\raggedright } } }
 
+\usepackage{listings}
+\usepackage{xcolor}
 % use package
 \usepackage{subfiles} % Best loaded last in the preamble
 \usepackage{hyperref}
@@ -56,6 +58,7 @@
 % include different subfile
 \include{src/test}
 \subfile{src/forum}
+\subfile{src/algorithm}
 \subfile{src/underline}
 
 \end{document}
