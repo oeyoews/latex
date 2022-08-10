@@ -68,6 +68,7 @@
 - [tlocalmgr](https://wiki.archlinux.org/title/TeX_Live)
 - [mirror](https://mirrors.tuna.tsinghua.edu.cn/help/CTAN/)
 - texlive-installer
+- [17002](https://castel.dev/post/lecture-notes-2/)
 
 ## TODO
 
