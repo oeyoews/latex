@@ -26,14 +26,19 @@
 
 \begin{document}
 
+\pagestyle{plain}
+
 \subfile{src/head}
 
 \maketitle
+\thispagestyle{empty}
 
 \newpage
 
 % toc
 \tableofcontents
+% remove current page number
+\thispagestyle{empty}
 
 \listoffigures
 
