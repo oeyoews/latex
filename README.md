@@ -17,17 +17,20 @@
 
 ## Showcases
 
-![img](img/00.png)
+| <img src="img/00.png" align="bottom" width=256/> | <img src="img/01.png" align="bottom" width=256/> | <img src="img/02.png" align="bottom" width=256/> |
+| :----------------------------------------------: | :----------------------------------------------: | ------------------------------------------------ |
 
 ## Struct
 
 ```bash
-├── docs
+
+├── src
 ├── img
 ├── public
 ├── README.md
-├── README.tex
-└── test
+├── index.tex
+└── test # test
+
 ```
 
 ## Tools
