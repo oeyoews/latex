@@ -3,6 +3,11 @@
 % font warning
 \documentclass[12pt, a4paper, oneside]{ctexart}
 
+\listfiles
+
+% left section
+\CTEXsetup[format+={\raggedright}]{section}
+
 % use package
 \usepackage{subfiles} % Best loaded last in the preamble
 \usepackage{hyperref}
@@ -15,7 +20,9 @@
 \title{Index}
 \author{oeyoews}
 \date{\today}
+
 \begin{document}
+
 \maketitle
 
 \newpage
@@ -34,5 +41,6 @@
 \subfile{src/list}
 \subfile{src/images}
 \subfile{src/paragraph}
+\include{src/test}
 
 \end{document}
