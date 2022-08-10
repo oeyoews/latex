@@ -13,7 +13,7 @@
 
 ## what's that
 
-> coming
+> 🎊 A latex project template
 
 ## Showcases
 
