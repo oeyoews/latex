@@ -6,7 +6,8 @@
 \listfiles
 
 % left section
-\CTEXsetup[format+={\raggedright}]{section}
+% \CTEXsetup[format+={\raggedright}]{section} % deprecated
+\ctexset { section = { format+={\raggedright } } }
 
 % use package
 \usepackage{subfiles} % Best loaded last in the preamble
@@ -15,6 +16,8 @@
 \usepackage{float}
 \usepackage{subfig}
 \usepackage{cite}
+\usepackage{multicol}
+\usepackage{blindtext}
 
 % title 2022-08-09T21:31:24
 \title{Index}
@@ -44,6 +47,8 @@
 \subfile{src/images}
 \subfile{src/paragraph}
 \subfile{src/table}
+\subfile{src/twocolumn}
+% include different subfile
 \include{src/test}
 
 \end{document}
