@@ -62,6 +62,9 @@
 ## Tutorials
 
 - [00](https://evian-zhang.github.io/index.html)
+- [tlocalmgr](https://wiki.archlinux.org/title/TeX_Live)
+- [mirror](https://mirrors.tuna.tsinghua.edu.cn/help/CTAN/)
+- texlive-installer
 
 ## TODO
 
