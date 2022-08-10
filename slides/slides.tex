@@ -1,59 +1,66 @@
 % slides.tex
 \documentclass{beamer}
 
-\title{Slides in neovim}
+% \setbeamercolor{title}{fg=yellow, bg=gray}
+
+\title{Slides in Neovim With Latex}
 \author{oeyoews}
 \date{2022/08/09}
 
 % use okular present mode
 \usetheme{Madrid}
-\usecolortheme{beaver}
+% dove, rose, lily, dolphin, beaver
+\usecolortheme{dolphin}
 
 \begin{document}
-\maketitle
+
+% Head
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+% TOC
+\begin{frame}{TOC}
+  % \tableofcontents[hideallsubsections]
+  \tableofcontents
+\end{frame}
+
+\begin{frame}{Block}
+
+  \begin{alertblock}{Alert}
+
+  \end{alertblock}
+
+  \begin{exampleblock}{example}
+
+    THis is a alerblock block
+
+  \end{exampleblock}
+
+  \section{First}%
+  \label{sec:First}
+  one
+
+  \subsection{fir.fir}%
+  \label{sub:fir.fir}
+  one.one
+
+  THis is a alerblock block
+
+\end{frame}
 
 % single frame
-\frame
 
-this is a single frame
+\begin{frame}{Item}
 
-\begin{frame}
-  block frame
+  \begin{itemize}
+    \item  one item
+    \item  one item
+  \end{itemize}
+
 \end{frame}
 
-\begin{frame}
-  block frame
-\end{frame}
-
-\begin{frame}
-  block frame
-\end{frame}
-
-\begin{frame}
-  block frame
-\end{frame}
-
-\begin{frame}
-  block frame
-\end{frame}
-
-\begin{frame}
-  block frame
-\end{frame}
-
-\begin{frame}
-  block frame
-\end{frame}
-
-\begin{frame}
-  block frame
-\end{frame}
-
-\begin{frame}
-  block frame
-\end{frame}
-
-\begin{frame}
+\begin{frame}{Test}{sub}
   block frame
 \end{frame}
 
