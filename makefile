@@ -1,4 +1,4 @@
 generate:
-	xelatex --output-directory public/ index.tex
+	xelatex --output-directory dist/ index.tex
 view:
-	okular public/index.pdf
+	okular dist/index.pdf

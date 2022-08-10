@@ -7,4 +7,4 @@ $cleanup_mode = 1;
 # @default_files = ('main.tex');
 # .latexmkrc ends
 
-$out_dir = "public";
+$out_dir = "dist";
