@@ -9,6 +9,9 @@
 % \CTEXsetup[format+={\raggedright}]{section} % deprecated
 \ctexset { section = { format+={\raggedright } } }
 
+\usepackage{docmute}
+
+\usepackage{amsmath}
 \usepackage{listings}
 \usepackage{xcolor}
 % use package
@@ -22,7 +25,7 @@
 \usepackage{blindtext}
 
 % title 2022-08-09T21:31:24
-\title{Index}
+\title{Index LaTeX}
 \author{oeyoews}
 \date{\today}
 
@@ -30,7 +33,7 @@
 
 \pagestyle{plain}
 
-\subfile{src/head}
+\include{src/head}
 
 \maketitle
 \thispagestyle{empty}
@@ -47,18 +50,22 @@
 \newpage
 
 % import files
-\subfile{src/href}
-\subfile{src/reference}
+\include{src/href}
+\include{src/reference}
 \subfile{src/newpage}
-\subfile{src/list}
-\subfile{src/images}
-\subfile{src/paragraph}
-\subfile{src/table}
+\include{src/list}
+\include{src/images}
+\include{src/paragraph}
+\include{src/table}
 \subfile{src/twocolumn}
 % include different subfile
 \include{src/test}
-\subfile{src/forum}
-\subfile{src/algorithm}
-\subfile{src/underline}
+\include{src/forum}
+\include{src/algorithm}
+\include{src/underline}
+\include{src/tips}
+\include{src/todo}
+
+\include{src/ending}
 
 \end{document}
