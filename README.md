@@ -61,6 +61,7 @@
 
 ## Tutorials
 
+- [latex workspace](https://www.latexstudio.net/archives/5900.html)
 - [00](https://evian-zhang.github.io/index.html)
 - [tlocalmgr](https://wiki.archlinux.org/title/TeX_Live)
 - [mirror](https://mirrors.tuna.tsinghua.edu.cn/help/CTAN/)
