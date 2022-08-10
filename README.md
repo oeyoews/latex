@@ -11,7 +11,7 @@
 
 </div>
 
-## what's that
+## What's that
 
 > 🎊 A latex project template
 
