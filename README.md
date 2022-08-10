@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://img.shields.io/badge/Status-WIP-blueviolet.svg?style=flat-square&logo=Chakra-Ui&color=90E59A&logoColor=green" alt="status" >
+<img src="https://img.shields.io/badge/Status-ING-blueviolet.svg?style=flat-square&logo=Chakra-Ui&color=90E59A&logoColor=green" alt="status" >
 
 </div>
 
@@ -39,7 +39,7 @@
 - neovim(vim)
 - tex related
 - zathura(pdf)
-- tlmgr(todo)
+- tlmgr
 - latexmk(increment compile)
 
 ## Links
