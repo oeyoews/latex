@@ -71,4 +71,4 @@
 
 ## TODO
 
-- mupdf zathura different
+[TODO](docs/todo.norg)
