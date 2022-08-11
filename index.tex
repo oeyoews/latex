@@ -1,16 +1,18 @@
+%!TEX program = lualatex
 % README.tex
 % ctexart or article
 % font warning
-\documentclass[UTF8]{ctexart}
+\documentclass[UTF8]{article}
 
 \listfiles
 
 % left section
 % \CTEXsetup[format+={\raggedright}]{section} % deprecated
-\ctexset { section = { format+={\raggedright } } }
+% \ctexset { section = { format+={\raggedright } } }
 
 \usepackage{docmute}
 
+\usepackage{emoji}
 \usepackage{tikz}
 \usepackage{fontspec}
 % \newfontface\EmojiFont{Twemoji Mozilla}[Renderer=HarfBuzz]
@@ -28,7 +30,7 @@
 \usepackage{blindtext}
 
 % title 2022-08-09T21:31:24
-\title{Learn \LaTeX{} 🚀 }
+\title{Learn \LaTeX{} \emoji{rocket}}
 \author{oeyoews}
 \date{\today}
 
@@ -39,6 +41,7 @@
 \include{src/head}
 
 \maketitle
+
 \thispagestyle{empty}
 
 \newpage
@@ -56,6 +59,7 @@
 \subfile{src/abstract.tex}
 \subfile{src/instroduce}
 \subfile{src/href}
+\subfile{src/emoji}
 \include{src/reference}
 \include{src/style}
 \subfile{src/newpage}

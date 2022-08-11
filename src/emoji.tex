@@ -1,0 +1,25 @@
+%!TEX program = lualatex
+% https://www.overleaf.com/learn/latex/Questions/Inserting_emojis_in_LaTeX_documents_on_Overleaf
+% not support ctex
+\documentclass[12pt]{article}
+\usepackage{emoji}
+
+\begin{document}
+
+\section{Emoji \emoji{rocket}}%
+\label{sec:Emoji}
+
+These are colour emojis using the \texttt{emoji} package and LuaLaTeX:
+
+leaves
+\emoji{leaves}
+rose
+\emoji{rose}
+
+You can use emoji-modifiers:
+\emoji{woman-health-worker-medium-skin-tone}
+\emoji{family-man-woman-girl-boy}
+\emoji{flag-malaysia}
+\emoji{flag-united-kingdom}
+
+\end{document}
