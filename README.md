@@ -74,6 +74,7 @@ tlmgr install emoji # tlmgr remove emoji
 
 ## Tips
 
+- [compile](https://zhuanlan.zhihu.com/p/127737245)
 - texlive-langjapanese to fix lua error [ref](https://wiki.archlinux.org/title/TeX_Live/CJK#Missing_or_inconsistent_fonts)
 - `textdoc forest` [texdoc](https://texdoc.org/index.html)
 - xelatex -> latexmk - zathura(save to refresh)
