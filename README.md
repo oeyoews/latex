@@ -55,6 +55,7 @@ tlmgr install emoji # tlmgr remove emoji
 - tex related
 - zathura(pdf)
 - tlmgr
+  http://tug.ctan.org/info/tlmgr-intro-zh-cn/tlmgr-intro-zh-cn.pdf
 - not install ctex by tlmgr
 - latexmk(increment compile)
 
