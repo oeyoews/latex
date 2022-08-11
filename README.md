@@ -58,7 +58,7 @@
 
 ## Tips
 
-- `textdoc forest`
+- `textdoc forest` [texdoc](https://texdoc.org/index.html)
 - xelatex -> latexmk - zathura(save to refresh)
 - latex -pdf # get all pdf
 - vimtex(plugin)
