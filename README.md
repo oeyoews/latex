@@ -98,9 +98,9 @@ tlmgr install emoji # tlmgr remove emoji
 
 [TODO](docs/todo.norg)
 
-## Install
+## Preview
 
-[dist/main.tex]
+- Click to preview [mainpdf](dist/main.pdf)
 
 ## Emoji
 
