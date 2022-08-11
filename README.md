@@ -15,6 +15,11 @@
 
 > 🎊 A latex project template,
 
+## Features
+
+- support emoji(base lualatex and emoji package)
+- support ctex(base ctex)
+
 ## Showcases
 
 | <img src="img/00.png" align="bottom" width=256/> | <img src="img/03.png" align="bottom" width=256/> | <img src="img/02.png" align="bottom" width=256/> |
