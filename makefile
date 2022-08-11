@@ -1,8 +1,8 @@
 # # index
 # generate:
 # 	xelatex --output-directory dist/ index.tex
-# update:
-# 	latexmk -xelatex index.tex
+update:
+	latexmk -lualatex index.tex
 # view:
 # 	okular dist/index.pdf
 # # slides
