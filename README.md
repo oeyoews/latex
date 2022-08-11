@@ -65,6 +65,7 @@
 
 ## Tutorials
 
+- [learnxinyminutes](https://learnxinyminutes.com/docs/latex/)
 - [overleaf](https://www.overleaf.com/learn)
 - [basic](https://www.learnlatex.org/en/)
 - [docs](https://lvjr.bitbucket.io/tutorial/learn-latex.pdf)
