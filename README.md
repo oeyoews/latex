@@ -65,6 +65,7 @@
 
 ## Tutorials
 
+- [bbs](https://www.mysmth.net/nForum/#!board/TeX)
 - [learnxinyminutes](https://learnxinyminutes.com/docs/latex/)
 - [overleaf](https://www.overleaf.com/learn)
 - [basic](https://www.learnlatex.org/en/)
