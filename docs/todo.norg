@@ -16,3 +16,4 @@ version: 0.0.11
 - [ ] makefile https://github.com/CTeX-org/lshort-zh-cn/blob/master/src/Makefile
 - [ ] update luatex with makefile
 - [ ] use lualatex to write luacode env
+- [ ] use cmake or nija to replace make

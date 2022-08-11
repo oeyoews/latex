@@ -1,12 +1,10 @@
-# # index
-# generate:
-# 	xelatex --output-directory dist/ index.tex
+TARGET = main.tex
+OUTPUT = dist/main.pdf
+VIEWER = zathura
+ENGINE = -lualatex
+EXEC = latexmk
+
 update:
-	latexmk -lualatex main.tex
-# view:
-# 	okular dist/index.pdf
-# # slides
-# generate-slides:
-# 	xelatex --output-directory slides/public/ slides/slides.tex
-# view-slides:
-# 	okular slides/public/slides.pdf
+	$(EXEC) $(ENGINE) $(TARGET)
+view:
+	$(VIEWER) $(OUTPUT)
