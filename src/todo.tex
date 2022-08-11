@@ -1,18 +1,20 @@
+%!TEX program = lualatex
 % todo.tex
-\documentclass[UTF8]{ctexart}
+\documentclass[UTF8]{article}
 
-% Title left align
-\ctexset { section = { format+={\raggedright } } }
-\title{todo}
+\usepackage{emoji}
+
+\title{todo \emoji{check-mark-button}}
 \author{oeyoews}
 \date{2022/08/11}
 
 \begin{document}
+% \setemojifont{TwemojiMozilla}
 
 \maketitle
 
 % \tableofcontents
-\section{TODO}%
+\section{TODO \emoji{check-mark-button}}%
 \label{sec:TODO}
 
 \begin{itemize}
