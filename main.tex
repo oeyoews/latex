@@ -4,12 +4,13 @@
 % font warning
 \documentclass[UTF8, 12pt]{article}
 
-% TODO
+% TODO ?? different
 % have some error with it
 % \includeonly{
 % 	src/head,
 % 	src/abstract,
 % 	src/cn,
+%   src/list,
 % }
 
 \listfiles
@@ -27,12 +28,9 @@
 \usepackage{emoji}
 \usepackage{tikz}
 \usepackage{fontspec}
-% \newfontface\EmojiFont{Twemoji Mozilla}[Renderer=HarfBuzz]
 \usepackage{amsmath}
 \usepackage{listings}
 \usepackage{xcolor}
-% use package
-\usepackage{subfiles} % Best loaded last in the preamble
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{float}
@@ -80,5 +78,9 @@
 
 % ending
 \include{src/ending}
+
+% special put reference site
+\bibliographystyle{plain}
+\bibliography{bib/all}
 
 \end{document}
