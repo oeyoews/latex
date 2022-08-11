@@ -15,6 +15,15 @@
 
 > 🎊 A latex project template,
 
+## Preinstall
+
+- need tlmgr install emoji
+
+```bash
+tlmgr init-usertree
+tlmgr install emoji # tlmgr remove emoji
+```
+
 ## Features
 
 - support emoji(base lualatex and emoji package)
@@ -46,6 +55,7 @@
 - tex related
 - zathura(pdf)
 - tlmgr
+- not install ctex by tlmgr
 - latexmk(increment compile)
 
 ## Links
