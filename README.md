@@ -45,6 +45,7 @@
 
 ## Links
 
+- [development](https://segmentfault.com/a/1190000038145401)
 - [official](https://www.latex-project.org/help/documentation/)
 - [tutorial](https://nbviewer.org/github/xinychen/latex-cookbook/blob/main/chapter-1/section5.ipynb)
 - [tuna](https://github.com/tuna/thuthesis)
@@ -58,11 +59,14 @@
 ## Tips
 
 - xelatex -> latexmk - zathura(save to refresh)
+- latex -pdf # get all pdf
 - vimtex(plugin)
 - preview(plugin)
 
 ## Tutorials
 
+- [overleaf](https://www.overleaf.com/learn)
+- [basic](https://www.learnlatex.org/en/)
 - [docs](https://lvjr.bitbucket.io/tutorial/learn-latex.pdf)
 - [latex workspace](https://www.latexstudio.net/archives/5900.html)
 - [00](https://evian-zhang.github.io/index.html)

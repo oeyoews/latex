@@ -9,6 +9,8 @@ version: 0.0.11
 
 = TOC
 
-- [-]  mupdf zathura different
-- [-]  custom font
-- [-]  customize template
+- [-] mupdf zathura different
+- [-] custom font
+- [-] customize template
+- [ ] lualatex(luatex)
+- [ ] makefile https://github.com/CTeX-org/lshort-zh-cn/blob/master/src/Makefile
