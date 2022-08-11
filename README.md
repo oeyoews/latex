@@ -101,3 +101,7 @@ tlmgr install emoji # tlmgr remove emoji
 ## Emoji
 
 - [emoji](https://texdoc.org/serve/emoji/0)
+
+## Videos
+
+- [v1](https://www.youtube.com/watch?v=M0p0y5sBBCo)
