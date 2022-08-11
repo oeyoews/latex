@@ -98,6 +98,10 @@ tlmgr install emoji # tlmgr remove emoji
 
 [TODO](docs/todo.norg)
 
+## Install
+
+[dist/main.tex]
+
 ## Emoji
 
 - [emoji](https://texdoc.org/serve/emoji/0)
