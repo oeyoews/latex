@@ -61,6 +61,8 @@ tlmgr install emoji # tlmgr remove emoji
 
 ## Links
 
+- [elegant](https://github.com/ElegantLaTeX/)
+- [template](https://github.com/Azure1210/elegantbook-magic-revision)
 - [report](http://www.ptep-online.com/ctan/lshort_chinese.pdf)
 - [development](https://segmentfault.com/a/1190000038145401)
 - [official](https://www.latex-project.org/help/documentation/)
