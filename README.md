@@ -113,6 +113,7 @@ tlmgr install emoji # tlmgr remove emoji
 ## Emoji
 
 - [emoji](https://texdoc.org/serve/emoji/0)
+- [font](https://github.com/mozilla/twemoji-colr/releases/tag/v0.6.0)
 
 ## Videos
 
