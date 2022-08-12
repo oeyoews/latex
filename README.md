@@ -83,6 +83,8 @@ tlmgr install emoji # tlmgr remove emoji
 
 ## Tips
 
+- [math plot](https://zhuanlan.zhihu.com/p/493767981)
+- [tex sctactoverflow](https://tex.stackexchange.com/)
 - [pylatex](https://github.com/JelteF/PyLaTeX)
 - [symbol](http://detexify.kirelabs.org/classify.html)
 - [compile](https://zhuanlan.zhihu.com/p/127737245)
