@@ -115,6 +115,10 @@ tlmgr install emoji # tlmgr remove emoji
 - [emoji](https://texdoc.org/serve/emoji/0)
 - [font](https://github.com/mozilla/twemoji-colr/releases/tag/v0.6.0)
 
+## Preview
+
+- [preview](https://github.com/oeyoews/latex/tree/gh-pages)
+
 ## Videos
 
 - [v1](https://www.youtube.com/watch?v=M0p0y5sBBCo)
