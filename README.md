@@ -38,14 +38,18 @@ tlmgr install emoji # tlmgr remove emoji
 ## Struct
 
 ```bash
-
-├── src
+.
+├── bib
+├── _config.yml
+├── dist
+├── docs
 ├── img
-├── public
+├── main.tex
+├── makefile
 ├── README.md
-├── index.tex
-└── test # test
+└── src
 
+5 directories, 4 files
 ```
 
 ## Tools
