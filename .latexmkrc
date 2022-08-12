@@ -5,6 +5,6 @@ $cleanup_mode = 1;
 # $preview_continuous_mode = 1;
 # @default_files = ('main.tex');
 
-$out_dir = "dist";
+$out_dir = "public";
 $pdf_mode = 5;
 # @defalut_files = ('index.tex', 'slides/slides.tex');  # 指定要编译的文件

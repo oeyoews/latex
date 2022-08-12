@@ -1,18 +1,21 @@
 SRC = main
-DIR = dist
+OUTPUTDIR = public
 VIEWER = zathura
 ENGINE = -lualatex
 EXEC = latexmk
-TARGET = $(SRC).tex
-OUTPUT = $(DIR)/$(SRC).pdf
+TARGETTEXFILE = $(SRC).tex
+OUTPUTPDFFILE = $(OUTPUTDIR)/$(SRC).pdf
+DISTDIR = dist
 
 update:
 	# /dev/null ??
-	$(EXEC) $(ENGINE) $(TARGET)
+	$(EXEC) $(ENGINE) $(TARGETTEXFILE)
+	-rm -rf $(DISTDIR) && mkdir $(DISTDIR)
+	-cp $(OUTPUTPDFFILE) $(DISTDIR)/learn-latex.pdf
 
 view:
-	$(VIEWER) $(OUTPUT)
+	$(VIEWER) $(OUTPUTPDFFILE)
 
 .PHONY: clean
 clean:
-	-rm -rf $(DIR)/*
+	-rm -rf $(OUTPUTDIR)
