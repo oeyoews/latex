@@ -2,7 +2,7 @@
 % https://www.overleaf.com/learn/latex/Questions/Inserting_emojis_in_LaTeX_documents_on_Overleaf
 \documentclass[12pt]{article}
 
-\usepackage{emoji}
+\usepackage{amsmath, emoji}
 \usepackage{ctex}
 % \setemojifont{TwemojiMozilla}{./fonts/}
 \setemojifont{TwemojiMozilla.ttf}[Path=./fonts/]
@@ -25,5 +25,10 @@
 	\item pencil \emoji{pencil}
 	\item pager \emoji{pager}
 \end{itemize}
+
+$$
+	\int_{\partial\text{\emoji{hourglass}}} \text{\emoji{frog}}
+	= \int_\text{\emoji{hourglass}} \mathrm{d}\text{\emoji{frog}}
+$$
 
 \end{document}
