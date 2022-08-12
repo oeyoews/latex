@@ -17,3 +17,4 @@ version: 0.0.11
 - [ ] update luatex with makefile
 - [ ] use lualatex to write luacode env
 - [ ] use cmake or nija to replace make
+- [ ] this \LaTeX command, how to customize
