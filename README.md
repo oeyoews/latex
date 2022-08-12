@@ -19,6 +19,7 @@
 ## Preinstall
 
 - need tlmgr install emoji
+- install twemoji or use its ttf
 
 ```bash
 tlmgr init-usertree
