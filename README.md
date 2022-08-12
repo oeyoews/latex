@@ -3,7 +3,7 @@
 
 </div>
 
-<h1 align="center">LatexVim</h1>
+<h1 align="center">Latex With Neovim</h1>
 
 <div align="center">
 
