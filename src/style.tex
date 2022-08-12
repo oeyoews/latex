@@ -1,6 +1,9 @@
 %!TEX program = lualatex
 % bold.tex
 \documentclass[UTF8]{article}
+
+\usepackage{ulem}
+\usepackage{xcolor}
 \usepackage{emoji}
 
 \title{bold}
@@ -19,10 +22,16 @@
 f2 = 23, this is a dmeo for met
 
 \begin{itemize}
-  \item  \textbf{bold}
-  \item \textit{italic}
-  \item \underline{underline}
-  \item{\emph{emph}}
+	\item \fbox{Thsis a box tex}
+	\item \fontsize{18pt}{24pt}{this si admeo}
+	\item \huge{large text}
+	\item \textcolor{green}{this is a grenn tex}
+	\item \sout{delete line}
+	\item \uwave{wave}
+	\item  \textbf{bold}
+	\item \textit{italic}
+	\item \underline{underline}
+	      \item{\emph{emph}}
 \end{itemize}
 
 \end{document}
