@@ -1,6 +1,6 @@
 <div align="center">
 <img src="https://img.shields.io/badge/Status-ING-blueviolet.svg?style=flat-square&logo=Chakra-Ui&color=90E59A&logoColor=green" alt="status" >
-
+<img src="https://img.shields.io/badge/LaTeX-38BDAE?logo=latex&logoColor=white&style=flat-square" alt="LateX" />
 </div>
 
 <h1 align="center">Latex With Neovim</h1>
