@@ -61,6 +61,7 @@ tlmgr install emoji # tlmgr remove emoji
 
 ## Links
 
+- [report](http://www.ptep-online.com/ctan/lshort_chinese.pdf)
 - [development](https://segmentfault.com/a/1190000038145401)
 - [official](https://www.latex-project.org/help/documentation/)
 - [tutorial](https://nbviewer.org/github/xinychen/latex-cookbook/blob/main/chapter-1/section5.ipynb)
