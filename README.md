@@ -110,10 +110,6 @@ tlmgr install emoji # tlmgr remove emoji
 
 [TODO](docs/todo.norg)
 
-## Preview
-
-- Click to preview [mainpdf](dist/main.pdf)
-
 ## Emoji
 
 - [emoji](https://texdoc.org/serve/emoji/0)
