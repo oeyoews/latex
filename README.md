@@ -17,25 +17,6 @@
 
 > 🎊 A LaTeX Project Template
 
-## Preinstall
-
-- need `tlmgr` install emoji package
-
-### Setup tlmgr
-
-```bash
-tlmgr init-usertree
-tlmgr install emoji
-# uninstall emoji
-# tlmgr remove emoji
-```
-
-## Features
-
-- support emoji(base lualatex and emoji package)
-- support ctex(base ctex)
-- some tips and tutorials
-
 ## Showcases
 
 | <img src="img/00.png" align="bottom" width=256/> | <img src="img/03.png" align="bottom" width=256/> | <img src="img/02.png" align="bottom" width=256/> |
@@ -69,6 +50,7 @@ tlmgr install emoji
 
 ## Links
 
+- [install texlive](https://wiki.archlinux.org/title/TeX_Live#Package_documentation)
 - [twemoji emojipedia](https://emojipedia.org/twitter/twemoji-14.0/party-popper/)
 - [elegant](https://github.com/ElegantLaTeX/)
 - [template](https://github.com/Azure1210/elegantbook-magic-revision)
