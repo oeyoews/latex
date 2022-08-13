@@ -2,28 +2,20 @@
 % !TEX program = lualatex
 % README.tex
 %----------------------
-\documentclass[UTF8, 12pt]{article}
+\documentclass{article}
 
 %----------------------
 % usepackage
 %----------------------
-\usepackage{pgfplots} % need install
 \usepackage{emoji} % need install
-\usepackage{lipsum}
-\usepackage{docmute}
-\usepackage{ulem}
-\usepackage{verbatim}
-\usepackage{tikz}
-\usepackage{fontspec}
-\usepackage{amsmath}
-\usepackage{hyperref}
-\usepackage{graphicx}
-\usepackage{float}
-\usepackage{subfig}
-\usepackage{cite}
-\usepackage{multicol}
-\usepackage{blindtext}
-% \usepackage[left]{showlabels}
+\usepackage{docmute} % merge all files
+\usepackage{float} % table 
+\usepackage{ulem} % underline enhance
+\usepackage{amsmath} % math 
+\usepackage{hyperref} % link
+\usepackage{graphicx} % embed images
+\usepackage{cite} % cite reference
+\usepackage{multicol} % multicolumn
 
 %----------------------
 % title
@@ -37,8 +29,8 @@
 % settings
 %----------------------
 \setemojifont{TwemojiMozilla.ttf}[Path={src/fonts/}] % spcial solve in main
-\setcounter{tocdepth}{1}
-\graphicspath{{src/img/}}
+\setcounter{tocdepth}{1} % show level 1
+\graphicspath{{src/img/}} % in main tex
 \hypersetup{colorlinks=true,} % modify link color with hyperref package
 % \definecolor{myGreen}{rgb}{0.76,0.93,0.63}
 % \pagecolor{myGreen} % change pagecolor with color package
@@ -50,7 +42,6 @@
 \include{src/head} % head
 \maketitle
 \tableofcontents
-\listoffigures
 
 %----------------------
 % import files
@@ -74,8 +65,6 @@
 % if change it, may be need to clean files
 \bibliographystyle{plain}
 \bibliography{src/bib/author}
-
-\include{src/ending}
 
 %----------------------
 % end
