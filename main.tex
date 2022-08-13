@@ -7,6 +7,7 @@
 %----------------------
 % usepackage
 %----------------------
+\usepackage{imakeidx}
 \usepackage{pgfplots} % need install
 \usepackage{emoji} % need install
 \usepackage{lipsum}
@@ -29,7 +30,7 @@
 %----------------------
 % title
 %----------------------
-\title{Learn \LaTeX{} \emoji{rocket}}
+\title{Learn \LaTeXe{} \emoji{rocket}}
 \author{oeyoews}
 \date{\emoji{calendar} 2022-08-11T13:16:20}
 
@@ -40,6 +41,7 @@
 \graphicspath{{src/img/}}
 \hypersetup{colorlinks=true,} % modify link color with hyperref package
 \listfiles
+\makeindex
 % \definecolor{myGreen}{rgb}{0.76,0.93,0.63}
 % \pagecolor{myGreen} % change pagecolor with color package
 
@@ -65,13 +67,18 @@
 \include{src/table}
 \include{src/twocolumn}
 \include{src/formula}
-\include{src/algorithm}
 \include{src/todo}
 \include{src/hyper}
 \include{src/compile}
+\include{src/index}
 \include{src/lipsum}
 \include{src/section}
-\include{src/endbib} % ending
+
+% if change it, may be need to clean files
+\bibliographystyle{plain}
+\bibliography{src/bib/author}
+\printindex
+
 \include{src/ending}
 
 %----------------------
