@@ -1,7 +1,12 @@
-%!TEX program = lualatex
+%----------------------
+% !TEX program = lualatex
 % README.tex
+%----------------------
 \documentclass[UTF8, 12pt]{article}
 
+%----------------------
+% usepackage
+%----------------------
 \usepackage{pgfplots} % need install
 \usepackage{emoji} % need install
 \usepackage{lipsum}
@@ -21,28 +26,35 @@
 \usepackage{blindtext}
 \usepackage{showlabels}
 
+%----------------------
+% title
+%----------------------
 \title{Learn \LaTeX{} \emoji{rocket}}
 \author{oeyoews}
 \date{\emoji{calendar} 2022-08-11T13:16:20}
 
-% \definecolor{myGreen}{rgb}{0.76,0.93,0.63}
-% \pagecolor{myGreen} % change pagecolor with color package
-
+%----------------------
 % settings
+%----------------------
 \setemojifont{TwemojiMozilla.ttf}[Path={src/fonts/}] % spcial solve in main
 \graphicspath{{src/img/}}
 \hypersetup{colorlinks=true,} % modify link color with hyperref package
 \listfiles
+% \definecolor{myGreen}{rgb}{0.76,0.93,0.63}
+% \pagecolor{myGreen} % change pagecolor with color package
 
+%----------------------
+% begin
+%----------------------
 \begin{document}
-
 \include{src/head} % head
-
 \maketitle
 \tableofcontents
 \listoffigures
 
+%----------------------
 % import files
+%----------------------
 \include{src/abstract.tex}
 \include{src/instroduce}
 \include{src/href}
@@ -58,9 +70,11 @@
 \include{src/hyper}
 \include{src/compile}
 \include{src/lipsum}
-\include{src/pagecolor}
-
+\include{src/section}
 \include{src/endbib} % ending
 \include{src/ending}
 
+%----------------------
+% end
+%----------------------
 \end{document}
