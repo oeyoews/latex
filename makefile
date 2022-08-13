@@ -16,6 +16,9 @@ update:
 view:
 	$(VIEWER) $(OUTPUTPDFFILE)
 
+push:
+	git add . && git commit -m "Automatic Push" && git push
+
 .PHONY: clean
 clean:
 	-rm -rf $(OUTPUTDIR)
