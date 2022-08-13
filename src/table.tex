@@ -1,4 +1,5 @@
 % table.tex
+%!TEX program = lualatex
 \documentclass{article}
 
 \usepackage{float}
@@ -17,12 +18,12 @@
 
 % https://evian-zhang.github.io/articles/LaTeX/LaTeX%E5%85%A5%E9%97%A8(%E4%B9%9D)/56495391.html
 \begin{table}[H]
-\centering
-\caption{Title of table}
-\begin{tabular}{|c|c|}\hline
-a11&a12\\\hline
-a21&a22\\\hline
-\end{tabular}
+	\centering
+	\caption{Title of table}
+	\begin{tabular}{|c|c|}\hline
+		a11 & a12 \\\hline
+		a21 & a22 \\\hline
+	\end{tabular}
 \end{table}
 
 \end{document}

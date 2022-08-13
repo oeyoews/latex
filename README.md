@@ -69,6 +69,7 @@ tlmgr install emoji
 
 ## Links
 
+- [twemoji emojipedia](https://emojipedia.org/twitter/twemoji-14.0/party-popper/)
 - [elegant](https://github.com/ElegantLaTeX/)
 - [template](https://github.com/Azure1210/elegantbook-magic-revision)
 - [report](http://www.ptep-online.com/ctan/lshort_chinese.pdf)
