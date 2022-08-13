@@ -1,0 +1,33 @@
+% head.tex
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subfig}
+
+\graphicspath{{img/}}
+
+\title{Head}
+\author{oeyoews}
+\date{2022/08/10}
+
+\begin{document}
+
+\maketitle
+
+\thispagestyle{empty}
+\setcounter{page}{1}
+
+% current, top, page of its own, bottom
+\begin{figure}[b]
+	\centering
+	\includegraphics[scale=0.4]{latex}
+	% \caption{img/latex.png}
+	% \label{fig:img-latex-png}
+\end{figure}
+
+\section{section name}%
+\label{sec:section name}
+this is a dnew 
+
+\end{document}

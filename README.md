@@ -83,6 +83,10 @@ tlmgr install emoji # tlmgr remove emoji
 
 ## Tips
 
+```bash
+latexdiff old.tex mod.tex > diff.tex  && compile diff.tex
+```
+
 - [math plot](https://zhuanlan.zhihu.com/p/493767981)
 - [tex sctactoverflow](https://tex.stackexchange.com/)
 - [pylatex](https://github.com/JelteF/PyLaTeX)
