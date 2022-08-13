@@ -2,12 +2,11 @@
 % README.tex
 \documentclass[UTF8, 12pt]{article}
 
-
 \usepackage{pgfplots} % need install
 \usepackage{emoji} % need install
 \usepackage{lipsum}
 \usepackage{showlabels}
-\usepackage{ctex}
+% \usepackage{ctex}
 \usepackage{docmute}
 \usepackage{ulem}
 \usepackage{verbatim}
@@ -29,7 +28,9 @@
 
 \listfiles
 
-\setemojifont{TwemojiMozilla.ttf}[Path=./fonts/]
+% image absolute path
+\graphicspath{{$HOME/REPOS/latex/src/img/}}
+\setemojifont{TwemojiMozilla.ttf}[Path={${HOME}/REPOS/latex/src/fonts/}]
 
 \begin{document}
 
@@ -42,7 +43,6 @@
 
 % import files
 \include{src/abstract.tex}
-\include{src/cn.tex}
 \include{src/instroduce}
 \include{src/href}
 \include{src/emoji}
