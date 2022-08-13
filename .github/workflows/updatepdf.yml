@@ -1,7 +1,7 @@
 name: Build LaTeX document
 on:
-  # schedule:
-  #   - cron: "10 16 * * *"
+  schedule:
+    - cron: "03 16 * * *"
   # push:
   #   branches: ["main"]
   workflow_dispatch:
