@@ -5,7 +5,6 @@
 \usepackage{pgfplots} % need install
 \usepackage{emoji} % need install
 \usepackage{lipsum}
-% \usepackage{ctex}
 \usepackage{docmute}
 \usepackage{ulem}
 \usepackage{verbatim}
@@ -26,16 +25,18 @@
 \author{oeyoews}
 \date{\emoji{calendar} 2022-08-11T13:16:20}
 
-\listfiles
+% \definecolor{myGreen}{rgb}{0.76,0.93,0.63}
+% \pagecolor{myGreen} % change pagecolor with color package
 
-% spcial solve in main
-\setemojifont{TwemojiMozilla.ttf}[Path={src/fonts/}]
+% settings
+\setemojifont{TwemojiMozilla.ttf}[Path={src/fonts/}] % spcial solve in main
 \graphicspath{{src/img/}}
+\hypersetup{colorlinks=true,} % modify link color with hyperref package
+\listfiles
 
 \begin{document}
 
-% head
-\include{src/head}
+\include{src/head} % head
 
 \maketitle
 \tableofcontents
@@ -57,9 +58,9 @@
 \include{src/hyper}
 \include{src/compile}
 \include{src/lipsum}
+\include{src/pagecolor}
 
-% ending
-\include{src/endbib}
+\include{src/endbib} % ending
 \include{src/ending}
 
 \end{document}
