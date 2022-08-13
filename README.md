@@ -14,22 +14,26 @@
 
 ## What's that
 
-> 🎊 A latex project template,
+> 🎊 A LaTeX Project Template
 
 ## Preinstall
 
-- need tlmgr install emoji
-- install twemoji or use its ttf
+- need `tlmgr` install emoji package
+
+### Setup tlmgr
 
 ```bash
 tlmgr init-usertree
-tlmgr install emoji # tlmgr remove emoji
+tlmgr install emoji
+# uninstall emoji
+# tlmgr remove emoji
 ```
 
 ## Features
 
 - support emoji(base lualatex and emoji package)
 - support ctex(base ctex)
+- some tips and tutorials
 
 ## Showcases
 
@@ -41,9 +45,7 @@ tlmgr install emoji # tlmgr remove emoji
 
 ```bash
 .
-├── bib
 ├── _config.yml
-├── dist
 ├── docs
 ├── img
 ├── main.tex
@@ -51,7 +53,6 @@ tlmgr install emoji # tlmgr remove emoji
 ├── README.md
 └── src
 
-5 directories, 4 files
 ```
 
 ## Tools
@@ -61,8 +62,8 @@ tlmgr install emoji # tlmgr remove emoji
 - tex related
 - zathura(pdf)
 - tlmgr
-  http://tug.ctan.org/info/tlmgr-intro-zh-cn/tlmgr-intro-zh-cn.pdf
-- not install ctex by tlmgr
+  [tlmgr](http://tug.ctan.org/info/tlmgr-intro-zh-cn/tlmgr-intro-zh-cn.pdf)
+- not install ctex by tlmgr, its out of box
 - latexmk(increment compile)
 
 ## Links
