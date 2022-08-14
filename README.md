@@ -39,6 +39,7 @@
 
 ## Tools
 
+- [zathura](https://wiki.archlinux.org/title/zathura)
 - vimtex(plugin)
 - neovim(vim)
 - tex related
