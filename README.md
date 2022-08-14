@@ -39,11 +39,10 @@
 
 ## Tools
 
-- [zathura](https://wiki.archlinux.org/title/zathura)
+- [zathura](https://wiki.archlinux.org/title/zathura) and mupdf-gl base
 - vimtex(plugin)
 - neovim(vim)
 - tex related
-- zathura(pdf)
 - tlmgr
   [tlmgr](http://tug.ctan.org/info/tlmgr-intro-zh-cn/tlmgr-intro-zh-cn.pdf)
 - not install ctex by tlmgr, its out of box
