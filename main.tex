@@ -8,13 +8,16 @@
 % usepackage
 %----------------------
 \usepackage{emoji, docmute, amsmath, graphicx, hyperref} \usepackage{float,
-ulem, cite, datetime}
+	ulem, cite, datetime}
 
 %----------------------
 % title
 %----------------------
-\title{\emoji{rocket} Learn \LaTeXe{}
-\thanks{\url{https://github.com/oeyoews/latex}}}
+\title{
+{\emoji{rocket} Learn \LaTeXe{}} \\
+{\thanks{\url{https://github.com/oeyoews/latex}}} \\
+{\includegraphics[scale=0.2]{latex}}
+}
 \author{\emoji{memo} oeyoews \thanks{jyao4783@gmail.com}}
 \date{\emoji{calendar} 2022-08-14T18:00:59 \thanks{UpdateTime: \today\ at \currenttime}}
 
@@ -25,15 +28,13 @@ ulem, cite, datetime}
 \setcounter{tocdepth}{1} % show level 1
 \graphicspath{{src/img/}} % in main tex
 \hypersetup{colorlinks=true,} % modify link color with hyperref package
-% \definecolor{myGreen}{rgb}{0.76,0.93,0.63}
-% \pagecolor{myGreen} % change pagecolor with color package
 
 %----------------------
 % begin
 %----------------------
 \begin{document}
-\include{src/head} % head
 \maketitle
+\clearpage
 \tableofcontents
 
 %----------------------
