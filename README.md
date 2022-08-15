@@ -107,7 +107,7 @@ latexdiff old.tex mod.tex > diff.tex  && compile diff.tex
 
 ## Preview
 
-- [preview](https://github.com/oeyoews/latex/tree/gh-pages)
+- Update nightly [🚀 preview](https://github.com/oeyoews/latex/tree/gh-pages)
 
 ## Videos
 
