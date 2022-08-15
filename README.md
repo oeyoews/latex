@@ -26,15 +26,13 @@
 ## Struct
 
 ```bash
-.
-├── _config.yml
-├── docs
-├── img
-├── main.tex
-├── makefile
-├── README.md
-└── src
-
+📂latex
+├── 📂docs
+├── 📂img
+├── 📝main.tex
+├── 📝makefile
+├── 📝README.md
+└── 📂src
 ```
 
 ## Tools
