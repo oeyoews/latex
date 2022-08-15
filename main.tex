@@ -4,6 +4,11 @@
 %----------------------
 \documentclass[UTF8, 12pt, a4paper]{article}
 
+\newcommand{\incfig}[2][1]{%
+	\def\svgwidth{#1\columnwidth}
+	\import{./src/figures/}{#2.pdf_tex}
+}
+
 %----------------------
 % usepackage
 %----------------------
@@ -15,6 +20,10 @@
   float,
   hyperref,
   datetime,
+  import,
+  pdfpages,
+  xcolor,
+  transparent,  
 } 
 
 %----------------------
@@ -59,6 +68,7 @@
 \include{src/hyper}
 \include{src/compile}
 \include{src/section}
+\include{src/math_figure}
 
 % if change it, may be need to clean files
 \bibliographystyle{plain}

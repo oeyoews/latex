@@ -1,0 +1,40 @@
+%!TEX program = lualatex
+\documentclass{article}
+
+\usepackage{emoji}
+\usepackage{import}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{xcolor}
+
+\newcommand{\incfig}[2][1]{%
+	\def\svgwidth{#1\columnwidth}
+	\import{./figures/}{#2.pdf_tex}
+}
+
+\begin{document}
+
+\section{\emoji{infinity} figtest-math01}
+
+\begin{figure}[ht]
+	\centering
+	\incfig{figtest-math01}
+	\caption{figtest-math01}
+	\label{fig:figtest-math01}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\incfig{figtest-math02}
+	\caption{figtest-math02}
+	\label{fig:figtest-math02}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\incfig{test-visual}
+	\caption{test-visual}
+	\label{fig:test-visual}
+\end{figure}
+
+\end{document}
