@@ -54,5 +54,9 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{misc.pdf}}%
+    \put(0.80479335,0.63339808){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}x\end{tabular}}}}%
+    \put(0.0869715,1.21753654){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}y\end{tabular}}}}%
+    \put(0.2814197,0.98920083){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}s\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{misc.pdf}}%
   \end{picture}%
 \endgroup%
