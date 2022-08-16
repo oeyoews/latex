@@ -4,6 +4,7 @@
 %----------------------
 \documentclass[UTF8, 12pt, a4paper]{article}
 
+% import
 \input{src/preamble}
 
 %----------------------
@@ -18,18 +19,19 @@
 %----------------------
 % import files
 %----------------------
-\include{src/abstract.tex}
-\include{src/instroduce}
-\include{src/href}
-\include{src/emoji}
-\include{src/reference}
-\include{src/table}
-\include{src/formula}
-\include{src/todo}
-\include{src/hyper}
-\include{src/compile}
-\include{src/section}
-\include{src/math_figure}
+% \include{src/abstract.tex}
+\inctex{abstract}
+\inctex{instroduce}
+\inctex{href}
+\inctex{emoji}
+\inctex{reference}
+\inctex{table}
+\inctex{formula}
+\inctex{todo}
+\inctex{hyper}
+\inctex{compile}
+\inctex{section}
+\inctex{math_figure}
 
 % if change it, may be need to clean files
 \bibliographystyle{plain}
