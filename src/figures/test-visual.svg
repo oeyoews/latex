@@ -17,7 +17,62 @@
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
-     id="defs2" />
+     id="defs2">
+    <inkscape:path-effect
+       effect="powerstroke"
+       id="path-effect606"
+       is_visible="true"
+       lpeversion="1"
+       offset_points="2.3084389,3.2578805"
+       not_jump="true"
+       sort_points="true"
+       interpolator_type="CentripetalCatmullRom"
+       interpolator_beta="0.75"
+       start_linecap_type="round"
+       linejoin_type="spiro"
+       miter_limit="4"
+       scale_width="1"
+       end_linecap_type="round" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect604"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.0032025118"
+       smooth_angles="0"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false"
+       step="1" />
+    <inkscape:path-effect
+       effect="powerstroke"
+       id="path-effect487"
+       is_visible="true"
+       lpeversion="1"
+       offset_points="2.4638366,3.2578805"
+       not_jump="true"
+       sort_points="true"
+       interpolator_type="CentripetalCatmullRom"
+       interpolator_beta="0.75"
+       start_linecap_type="round"
+       linejoin_type="spiro"
+       miter_limit="4"
+       scale_width="1"
+       end_linecap_type="round" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect485"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.0032025118"
+       smooth_angles="0"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false"
+       step="1" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -72,18 +127,23 @@
        id="layer1"
        transform="translate(0,-177)">
       <path
-         sodipodi:type="spiral"
-         style="fill:#ddff55;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583"
-         id="path111"
-         sodipodi:cx="248.82964"
-         sodipodi:cy="127.18037"
-         sodipodi:expansion="1"
-         sodipodi:revolution="3"
-         sodipodi:radius="60.041527"
-         sodipodi:argument="-18.381021"
-         sodipodi:t0="0"
-         d="m 248.82964,127.18037 c 2.68596,1.35942 -0.50733,4.29131 -2.25946,4.46424 -4.74818,0.46862 -7.31864,-4.96714 -6.66903,-8.98316 1.162,-7.18371 9.17371,-10.60778 15.70686,-8.87381 9.58766,2.54467 13.96927,13.42825 11.0786,22.43056 -3.85281,11.99866 -17.69864,17.36006 -29.15427,13.28338 -14.41574,-5.13008 -20.76571,-21.97628 -15.48816,-35.87796 6.39181,-16.83681 26.25795,-24.17991 42.60166,-17.692954 19.26051,7.644654 27.59946,30.542124 19.89774,49.325364 -8.89195,21.686 -34.82797,31.02259 -56.04907,22.10252 -24.11276,-10.13554 -34.44821,-39.11499 -24.3073,-62.77277 11.37656,-26.540447 43.40287,-37.875656 69.49647,-26.512086 28.96883,12.615716 41.30447,47.691406 28.71687,76.220176"
-         transform="matrix(0.26458333,0,0,0.26458333,11.007515,189.19656)" />
+         sodipodi:type="star"
+         style="font-variation-settings:normal;opacity:1;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         id="path662"
+         inkscape:flatsided="false"
+         sodipodi:sides="5"
+         sodipodi:cx="332.32306"
+         sodipodi:cy="127.69224"
+         sodipodi:r1="95.156746"
+         sodipodi:r2="95.195892"
+         sodipodi:arg1="0.84696084"
+         sodipodi:arg2="0.080734149"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 395.34188,198.99044 31.867,-63.62099 -143.22055,74.28961 70.3546,10.64734 -114.9112,-113.25408 11.61454,70.20141 72.20152,-144.284487 -63.17642,32.739515 159.5342,24.081372 -50.65972,-49.967278 z"
+         transform="matrix(0.26458333,0,0,0.26458333,26.786734,194.07757)"
+         inkscape:transform-center-x="0.74200181"
+         inkscape:transform-center-y="-1.6875358" />
     </g>
   </g>
 </svg>
