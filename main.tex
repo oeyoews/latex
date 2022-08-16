@@ -11,15 +11,11 @@
 % begin
 %----------------------
 \begin{document}
-\maketitle
-\thispagestyle{empty}
-\clearpage
-\tableofcontents
 
 %----------------------
 % import files
 %----------------------
-% \include{src/abstract.tex}
+\inctex{page} % page settings
 \inctex{abstract}
 \inctex{instroduce}
 \inctex{href}
@@ -32,10 +28,7 @@
 \inctex{compile}
 \inctex{section}
 \inctex{math_figure}
-
-% if change it, may be need to clean files
-\bibliographystyle{plain}
-\bibliography{src/bib/author}
+\inctex{bibref} % bib reference
 
 %----------------------
 % end
