@@ -1,6 +1,6 @@
 %% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'figtest-math01.pdf' (pdf, eps, ps)
+%% Accompanies image file 'newf.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -53,7 +53,8 @@
   \begin{picture}(1,0.5)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{figtest-math01.pdf}}%
-    \put(0.49663308,0.07978096){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Tangle Test\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{newf.pdf}}%
+    \put(0.40351378,0.16149203){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Five\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{newf.pdf}}%
   \end{picture}%
 \endgroup%

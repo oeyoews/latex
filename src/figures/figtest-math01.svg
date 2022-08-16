@@ -133,5 +133,16 @@
          points="86.591097,214.97066 87.800317,241.31933 104.50119,244.50623 103.41612,220.8629 "
          transform="translate(-9.5518682,43.608072)" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;stroke-width:0.264583"
+       x="119.19194"
+       y="277.85257"
+       id="text7721"><tspan
+         sodipodi:role="line"
+         id="tspan7719"
+         style="stroke-width:0.264583"
+         x="119.19194"
+         y="277.85257">Tangle Test</tspan></text>
   </g>
 </svg>
