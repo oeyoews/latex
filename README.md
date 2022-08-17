@@ -119,3 +119,7 @@ latexdiff old.tex mod.tex > diff.tex  && compile diff.tex
 ## Videos
 
 - [v1](https://www.youtube.com/watch?v=M0p0y5sBBCo)
+
+## Others
+
+- [pyluatex](https://github.com/tndrle/PyLuaTeX)
