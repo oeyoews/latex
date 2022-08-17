@@ -1,0 +1,44 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{latex-template}
+
+\RequirePackage{
+  emoji,
+  docmute,
+  amsmath,
+  graphicx,
+  float,
+  hyperref,
+  datetime,
+  import,
+  pdfpages,
+  xcolor,
+  transparent,
+}
+
+\newcommand{\incfig}[2][1]{%
+  \def\svgwidth{#1\columnwidth}
+  \import{src/figures/}{#2.pdf_tex}
+}
+
+\newcommand{\inctex}[1]{
+  \include{src/#1.tex}
+}
+
+%----------------------
+% title
+%----------------------
+\title{
+  {\emoji{rocket} Learn \LaTeXe{}}
+  {\thanks{\url{https://github.com/oeyoews/latex}}} \\
+  {\includegraphics[scale=0.2]{latex}}
+}
+\author{\emoji{memo} oeyoews \thanks{jyao4783@gmail.com}}
+\date{\emoji{calendar} 2022-08-14T18:00:59 \thanks{UpdatedTime: \today\ at \currenttime}}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+% settings
+%%%%%%%%%%%%%%%%%%%%%%%
+\setemojifont{TwemojiMozilla.ttf}[Path={src/fonts/}] % spcial solve in main
+\setcounter{tocdepth}{1} % show level 1
+\graphicspath{{src/img/}} % in main tex
+\hypersetup{colorlinks=true,} % modify link color with hyperref package
