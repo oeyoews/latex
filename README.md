@@ -15,7 +15,7 @@
 
 ## What's that
 
-> 🎊 A LaTeX Project Template
+> 🎊 A LaTeX Project Template for latex beginners with neovim
 
 ## Showcases
 
