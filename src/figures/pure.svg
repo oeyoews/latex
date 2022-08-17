@@ -204,27 +204,27 @@
          y="201.73463">X</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:8.71143px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;stroke-width:0.362976"
-       x="-72.015236"
-       y="297.52374"
+       style="font-size:6.75658px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;stroke-width:0.281524"
+       x="-39.837093"
+       y="331.98743"
        id="text9140"
-       transform="matrix(0.924725,-0.4234623,0.44655134,0.87691188,0,0)"><tspan
+       transform="matrix(1.086126,-0.2397546,0.32727302,0.84846029,0,0)"><tspan
          sodipodi:role="line"
          id="tspan9138"
-         style="stroke-width:0.362976"
-         x="-72.015236"
-         y="297.52374">Y</tspan></text>
+         style="stroke-width:0.281524"
+         x="-39.837093"
+         y="331.98743">Y</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:5.5316px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;stroke-width:0.230483"
-       x="101.26548"
-       y="186.52179"
+       style="font-size:3.44979px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;stroke-width:0.143741"
+       x="114.38744"
+       y="164.2614"
        id="text9144"
-       transform="scale(0.9722443,1.0285481)"><tspan
+       transform="scale(0.86176452,1.1604098)"><tspan
          sodipodi:role="line"
          id="tspan9142"
-         style="stroke-width:0.230483"
-         x="101.26548"
-         y="186.52179">Z</tspan></text>
+         style="stroke-width:0.143741"
+         x="114.38744"
+         y="164.2614">Z</tspan></text>
   </g>
 </svg>
