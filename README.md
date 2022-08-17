@@ -5,7 +5,7 @@
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/oeyoews/latex?logo=github&logoColor=cyan&style=flat-square">
 </div>
 
-<h1 align="center">Latex With Neovim</h1>
+<h1 align="center">LaTeX With Neovim</h1>
 
 <div align="center">
 
