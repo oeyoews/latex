@@ -8,7 +8,6 @@ OUTPUTPDFFILE = $(OUTPUTDIR)/$(SRC).pdf
 DISTDIR = dist
 
 update:
-	# /dev/null ??
 	$(EXEC) $(ENGINE) $(TARGETTEXFILE)
 	-rm -rf $(DISTDIR) && mkdir $(DISTDIR)
 	-cp $(OUTPUTPDFFILE) $(DISTDIR)/learn-latex.pdf

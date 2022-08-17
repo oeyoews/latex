@@ -35,6 +35,13 @@
 └── 📂src
 ```
 
+## Build
+
+```bash
+make update # generate pdf
+make view # show generated pdf
+```
+
 ## Tools
 
 - [zathura](https://wiki.archlinux.org/title/zathura) and mupdf-gl base
