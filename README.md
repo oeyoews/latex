@@ -13,6 +13,27 @@
 
 </div>
 
+# TOC
+
+<!-- toc -->
+
+- [What's that](#whats-that)
+- [Showcases](#showcases)
+- [Struct](#struct)
+- [Build](#build)
+- [Tools](#tools)
+- [Links](#links)
+- [Bugs](#bugs)
+- [Tips](#tips)
+- [Tutorials](#tutorials)
+- [TODO](#todo)
+- [Emoji](#emoji)
+- [Preview](#preview)
+- [Videos](#videos)
+- [Others](#others)
+
+<!-- tocstop -->
+
 ## What's that
 
 > 🎊 A LaTeX Project Template for LaTeX beginners with neovim
