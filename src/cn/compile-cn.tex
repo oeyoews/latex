@@ -1,0 +1,30 @@
+%!TEX program = xelatex
+% compile.tex
+\documentclass[UTF8]{article}
+
+\usepackage{hyperref}
+\usepackage{emoji}
+% support cn, default is en
+% \usepackage{ctex}
+
+% Title left align
+% \ctexset { section = { format+={\raggedright } } }
+\title{compile}
+\author{oeyoews}
+\date{2022/08/11}
+
+\begin{document}
+
+\maketitle
+
+\section{\emoji{eagle}hyper compile}%
+\label{sec:hyper compile}
+
+because the first time generate aux assist file, so this pdf will have question
+symbol, in xelatex only one times.
+
+but if use latexmk directly, this question will solved,(for two comile only
+now), actually this command execute two time to generate pdf file, so it's
+normal. \href{https://qa.1r1g.cn/tex/ask/17397131/}{latexmk virtue}
+
+\end{document}

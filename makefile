@@ -1,22 +1,31 @@
-SRC = main
-OUTPUTDIR = public
+# compile
 VIEWER = zathura
 ENGINE = -lualatex
 EXEC = latexmk
-TARGETTEXFILE = $(SRC).tex
-OUTPUTPDFFILE = $(OUTPUTDIR)/$(SRC).pdf
+# files
+SRC = main
+SRCCN = main-cn
+OUTPUTDIR = public
 DISTDIR = dist
+# ref
+TARGETTEXFILE = $(SRC).tex
+TARGETTEXFILECN = $(SRCCN).tex
+OUTPUTPDFFILE = $(OUTPUTDIR)/$(SRC).pdf
+OUTPUTPDFFILECN = $(OUTPUTDIR)/$(SRCCN).pdf
 
 update:
-	$(EXEC) $(ENGINE) $(TARGETTEXFILE)
 	-rm -rf $(DISTDIR) && mkdir $(DISTDIR)
-	-cp $(OUTPUTPDFFILE) $(DISTDIR)/learn-latex.pdf
+	# en
+	$(EXEC) $(ENGINE) $(TARGETTEXFILE)
+	-cp $(OUTPUTPDFFILE) $(DISTDIR)
+	# cn
+	$(EXEC) $(ENGINE) $(TARGETTEXFILECN)
+	-cp $(OUTPUTPDFFILECN) $(DISTDIR)
 
 view:
 	$(VIEWER) $(OUTPUTPDFFILE)
-
-push:
-	git add . && git commit -m "Automatic Push" && git push
+view-cn:
+	$(VIEWER) $(OUTPUTPDFFILECN)
 
 .PHONY: clean
 clean:

@@ -1,0 +1,32 @@
+%!TEX program = xelatex
+% hyper.tex
+\documentclass[UTF8]{article}
+
+\usepackage{showlabels}
+
+% Title left align
+% \ctexset { section = { format+={\raggedright } } }
+\title{hyper}
+\author{oeyoews}
+\date{2022/08/11}
+
+\begin{document}
+\maketitle
+
+\section{\emoji{link}hyperref}%
+\label{sec:hyperref}
+this is a hyper link
+
+
+\subsection{hyper compile test}%
+\label{sec:hyper compile test}
+
+this \ref{sec:hyperref} is a dmeo
+this \ref{sec:demo} si sec
+
+\subsection{hyper test two}%
+\label{sec:demo}
+
+this second \pageref{sec:hyperref} demo
+
+\end{document}
