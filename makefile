@@ -12,7 +12,7 @@ TARGETTEXFILE = $(SRC).tex
 TARGETTEXFILECN = $(SRCCN).tex
 OUTPUTPDFFILE = $(OUTPUTDIR)/$(SRC).pdf
 OUTPUTPDFFILECN = $(OUTPUTDIR)/$(SRCCN).pdf
-PDFLANGCN="false"
+PDFLANGCN=""
 
 update:
 	-rm -rf $(DISTDIR) && mkdir $(DISTDIR)
@@ -22,7 +22,9 @@ update:
 ifeq ($(PDFLANGCN), "true")
 	$(EXEC) $(ENGINE) $(TARGETTEXFILECN)
 	-cp $(OUTPUTPDFFILECN) $(DISTDIR)
+	@echo "📖 Generated extra cn pdf"
 endif
+	@echo "🚀 Generated en pdf"
 
 view:
 	$(VIEWER) $(OUTPUTPDFFILE)
