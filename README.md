@@ -66,6 +66,7 @@ make view # show generated pdf
 - [tuna](https://github.com/tuna/thuthesis)
 - [resume](https://github.com/hijiangtao/resume), [res2](https://github.com/jankapunkt/latexcv)
 - [slides](https://github.com/xinychen/awesome-beamer)
+- [makefile](https://seisman.github.io/how-to-write-makefile/functions.html)
 
 ## Bugs
 
