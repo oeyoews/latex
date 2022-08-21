@@ -8,9 +8,8 @@
 <h1 align="center">LaTeX With Neovim</h1>
 
 <div align="center">
-
+<img src="img/bird.png" width=128/>
 <img src="img/latex.png" width=128/>
-
 </div>
 
 # TOC

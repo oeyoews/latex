@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="240mm"
+   height="120mm"
+   viewBox="0 0 240 120"
+   version="1.1"
+   id="svg4655"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="vim_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4657"
+     pagecolor="#ffffff"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4652">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1288">
+      <stop
+         style="stop-color:#95ee9f;stop-opacity:1;"
+         offset="0"
+         id="stop1284" />
+      <stop
+         style="stop-color:#00ffe3;stop-opacity:0;"
+         offset="1"
+         id="stop1286" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect339"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect335"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect331"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect327"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect323"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect319"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect315"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect311"
+       is_visible="true"
+       lpeversion="1" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1288"
+       id="radialGradient1290"
+       cx="104.81264"
+       cy="69.158119"
+       fx="104.81264"
+       fy="69.158119"
+       r="38.964194"
+       gradientTransform="matrix(1.6844796,-1.4480906,1.2677221,1.4746673,-142.34538,114.05786)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:url(#radialGradient1290);stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 81.797059,19.421381 c -1.182627,6.28887 4.811421,14.369547 12.627406,29.439675 7.815985,15.070129 17.453165,37.12803 28.226715,36.681882 10.77355,-0.446148 22.68234,-23.396017 29.63238,-40.341286 6.95005,-16.945269 8.94043,-27.883945 5.93667,-32.224329 -3.00377,-4.3403843 -11.00147,-2.081648 -17.63783,7.699935 -6.63635,9.781582 -11.91056,27.085219 -18.49741,25.58275 C 115.49814,44.757538 107.5987,24.44888 99.468957,16.542426 91.339212,8.6359714 82.979686,13.132511 81.797059,19.421381 Z"
+       id="path337"
+       inkscape:path-effect="#path-effect339"
+       inkscape:original-d="m 74.620042,17.629114 c 5.994364,8.081156 11.988412,16.161833 17.982504,24.242514 9.638034,22.059502 19.275214,44.117403 28.912694,66.176352 11.9098,-22.951026 23.8186,-45.900895 35.72791,-68.852532 1.9907,-10.939021 3.98108,-21.877698 5.9714,-32.817355 -7.998,2.2591599 -15.9957,4.517896 -23.99409,6.776488 -5.27409,17.304356 -10.54831,34.607992 -15.82287,51.911648 C 115.49828,44.757484 107.59884,24.448826 99.698922,4.139333 91.339389,8.6363 82.979863,13.132839 74.620042,17.629114 Z"
+       sodipodi:nodetypes="sccccccss" />
+  </g>
+</svg>
