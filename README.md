@@ -30,6 +30,7 @@
 - [Preview](#preview)
 - [Videos](#videos)
 - [Others](#others)
+- [fontawesome](#fontawesome)
 
 <!-- tocstop -->
 
@@ -144,3 +145,7 @@ latexdiff old.tex mod.tex > diff.tex  && compile diff.tex
 ## Others
 
 - [pyluatex](https://github.com/tndrle/PyLuaTeX)
+
+## fontawesome
+
+- [x] need install texlive fontawesome or related package
